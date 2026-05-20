@@ -1,0 +1,28 @@
+body{
+            background-color:lavenderblush
+        }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 50px;
+    background-color: lightblue;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.copy {
+    text-align: center;
+    color:darkslateblue;
+    font-size: 25px;
+    background-color:cornsilk;
+}

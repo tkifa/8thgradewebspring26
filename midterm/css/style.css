@@ -1,0 +1,27 @@
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgb(165, 195, 255);
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+li {
+list-style-position: inside;
+
+}
+
+.color {
+    color:aliceblue;
+    font-size: 20px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taisiya | CSS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #red-text {
+            color:red;
+        }
+
+        #multi-text {
+            color:cornflowerblue;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .multi-line {
+            color:orchid;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+
+    <h1>CSS is so cool!!</h1>
+    <h2>There are three ways to add CSS to your page.</h2>
+    <h3>This is how we use INLINE CSS</h3>
+    <p style="color:lightsalmon;" >I want this text to be orange like the sunset.</p>
+    <p style="text-align: center;">I want this text to be centered.</p>
+    <p style="text-align: center; color:lightsalmon;"> I want this text to be centered AND sunset orange</p>
+
+    <h3>This is how we use INTERNAL styling.</h3>
+    <p id="red-text"> I want this text to be red. </p>
+    <p id="multi-text">I want this text to be blue, centered, and 25px</p>
+    <p class="multi-line">This is part of a class</p>
+    <h4 class="multi-line"> So is this</h4>
+    <h2 class="multi-line">And so is this</h2>
+
+    <h2>This is how we use divs and spans.</h2>
+    <div class="copy">
+        <p>This paragraph is part of a div</p>
+        <p>So is this one.</p>
+        <img src="images/shibuya_crossing_japan.jpg" width="250">
+        <p>This caption for the image is alos part of my div!</p>
+    </div>
+</body>
+</html>

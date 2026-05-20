@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taisiya | JS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+    <h1>Today we will learn about JavaScript.</h1>
+    <h2>How do we do onclick events?</h2>
+    <p>Click <a href="http://www.eastsideprep.org" target="_blank"
+    onclick="alert('Warning! You\'re navigating away from my website. Are you sure you want to proceed?')"> here</a> to navigate to my school website.</p>
+
+    <h2>We can also use JS to do math!</h2>
+    <p>What is 5+3?</p>
+    <button onclick="document.getElementById('add').innerHTML=5+3"> Click me for the answer.</button>
+    <p id="add"></p>
+
+    <h2>We can also add the date and time.</h2>
+    <button onclick="document.getElementById('date').innerHTML=Date()">Click me for the date and time.</button>
+    <p id="date"></p>
+
+    <h2>Let's change text with JS</h2>
+    <button onclick="document.getElementById('change-text').innerHTML='You did it!'">Click me to change the text below</button>
+    <p id="change-text">This text will change.</p>
+
+    <h2>How do we make a function with JS?</h2>
+    <p>Let's use a function to add an image to our page.</p>
+    <button onclick="showImg()">Click me for a surprise image!!</button>
+    <img id="surprise" src="" width="500px">
+
+    <h2>How do we return user data?</h2>
+    <button onclick="askName()">Click me to enter your name.</button>
+    <p id="ask-name"></p>
+
+    <h2>How do we ask other questions with JS?</h2>
+    <button onclick="askQuestion()">Click here for the question of the ages.</button>
+    <p id="ask-question"></p>
+
+    <script>
+        function showImg() {
+            var image = document.getElementById('surprise');
+            image.src = 'images/flower_field.jpg';
+        }
+
+        // alert('Hellooooo there!!\nWelcome to my website.');
+        // alert('Thank you for visiting :D');
+        // alert('How many alerts do you think I can spam you with? >:D');
+        // alert('A LOT!! but this is the last message for now...');
+        // alert('Wait guess what I\'m back')
+        // alert("OKAY now I'm done")
+    </script>
+</body>
+</html>

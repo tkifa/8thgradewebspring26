@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8-Ball</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Magic 8-Ball</h1>
+        <div id="Container 1"> 
+            <div class="container2">
+                <h2>Ask your question here:</h2>
+                <input
+                    id="question"
+                    placeholder="Type your question here..."
+                    type="text"
+                    onkeypress="handleKeyPress(event)" />
+                <img
+                    onclick="askQuestion()"
+                    id="askButton"
+                    src="./images/img.jpg"
+                    alt="Ask" />
+                <div id="answer" class="answer-box"></div>
+            </div>  
+        </div>   
+
+    <button id="shake-btn" onclick="shake()">Shake</button>
+    <div id="ball">
+        <div id="fortune">Ask a question!</div> 
+    </div>
+    <script src="js/app.js"></script>
+
+    <img src="images/magic_ball.jpg" width="200px">
+    
+</body>
+
+</html>
+
